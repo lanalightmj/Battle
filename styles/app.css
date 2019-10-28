@@ -1,0 +1,502 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #444444; }
+
+a {
+  text-decoration: none;
+  color: #fff; }
+
+ul, li {
+  display: block;
+  padding: 0;
+  margin: 0; }
+
+ul {
+  list-style-type: none; }
+
+h1, h2, h3 {
+  font-weight: 700; }
+
+h1, h2 {
+  text-align: center;
+  margin: 0 auto; }
+
+input {
+  margin-bottom: 35px; }
+
+input, textarea {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important; }
+
+/* Header */
+.header {
+  position: absolute;
+  width: 100%;
+  background: transparent;
+  color: #fff;
+  padding-top: 2.0625rem;
+  padding-bottom: 0.625rem;
+  z-index: 1000; }
+
+.logo {
+  font-size: 2.0625rem;
+  font-weight: 700; }
+
+.menu {
+  margin-top: 0.25rem; }
+  .menu__item a {
+    display: inline-block;
+    line-height: 1;
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer; }
+  .menu__item a:hover {
+    color: #e71cb4; }
+  .menu__item a:after {
+    background-color: #e71cb4;
+    display: block;
+    content: "";
+    height: 0.125rem;
+    width: 0%;
+    margin-top: 0.4375rem;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    -o-transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out; }
+  .menu__item a:hover:after,
+  .menu__item a:focus:after {
+    width: 100%; }
+
+/* Hero */
+.hero {
+  position: relative;
+  top: 0;
+  width: auto;
+  height: 100vh;
+  background: #0e0d1b url(../img/hero.png) 50% no-repeat;
+  color: #fff; }
+  .hero__title {
+    padding-top: 15.3125rem;
+    font-size: 3.75rem;
+    margin-bottom: 1.75rem; }
+  .hero__text {
+    text-align: center;
+    font-size: 1.875rem;
+    margin-bottom: 3.875rem; }
+  .hero__btn {
+    display: block;
+    width: 16.75rem;
+    height: 3.125rem;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0 auto;
+    border-radius: 0.625rem;
+    border-width: 0.125rem; }
+
+/* Design */
+.design {
+  padding-top: 8.75rem;
+  padding-bottom: 9.5625rem; }
+  .design__main-title {
+    font-size: 3.875rem;
+    font-weight: 700;
+    color: #e71cb4;
+    text-align: left;
+    margin-bottom: 5.9375rem; }
+  .design__text {
+    font-size: 2rem;
+    line-height: 2.9375rem;
+    margin-bottom: 8.5rem; }
+  .design__title {
+    font-size: 2.25rem;
+    margin-bottom: 5.9375rem; }
+  .design__info {
+    font-size: 1.375rem;
+    line-height: 2.5rem;
+    margin-bottom: 5rem; }
+
+.point {
+  padding-left: 1.5625rem;
+  margin-bottom: 5.625rem; }
+  .point__icon {
+    font-size: 2.75rem;
+    margin-right: 3.625rem; }
+  .point__num {
+    font-size: 2.75rem;
+    font-weight: 700; }
+  .point__txt {
+    padding-left: 1.6875rem;
+    font-size: 1.5rem;
+    font-weight: 500; }
+
+.yellow {
+  color: #ffde16; }
+
+.beige {
+  color: #ffbd9e; }
+
+.blue {
+  color: #20c9e0; }
+
+.green {
+  color: #2eac66; }
+
+.tomato {
+  color: #ff6179; }
+
+.submissions__title {
+  font-size: 1.875rem;
+  margin-bottom: 2.3125rem; }
+
+.submissions__text {
+  font-size: 0.875rem;
+  line-height: 2.4375rem;
+  margin-bottom: 2.8125rem; }
+
+.submissions__btn {
+  display: block;
+  width: 28.625rem;
+  height: 4.375rem;
+  background-color: #c60ebe;
+  font-size: 1.375rem;
+  font-weight: 700;
+  border-radius: 0.625rem;
+  border-width: 0; }
+
+/* Partisipants */
+.participants {
+  background: -webkit-gradient(linear, left bottom, left top, from(#fd00cc), to(#333399));
+  background: -webkit-linear-gradient(bottom, #fd00cc 0%, #333399 100%);
+  background: -o-linear-gradient(bottom, #fd00cc 0%, #333399 100%);
+  background: linear-gradient(0deg, #fd00cc 0%, #333399 100%);
+  padding-top: 9.6875rem;
+  color: #fff; }
+  .participants__title {
+    font-size: 3.875rem;
+    margin-bottom: 3.4375rem; }
+  .participants__text {
+    font-size: 1.375rem;
+    line-height: 2.5rem;
+    text-align: center;
+    margin-bottom: 3.3125rem; }
+
+.person__pic {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out; }
+
+.person__pic:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1); }
+
+.person__name {
+  text-align: center;
+  margin-bottom: 1.375rem; }
+
+.person__about {
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 7rem; }
+
+.countdown {
+  color: #fff;
+  display: block;
+  margin-bottom: 7.4375rem;
+  font-weight: 400;
+  text-align: center;
+  font-size: 1.875rem; }
+  .countdown__title {
+    color: #fff;
+    font-weight: 700;
+    font-size: 3.875rem;
+    text-align: center;
+    margin-bottom: 4.125rem; }
+  .countdown__number {
+    width: 10rem;
+    height: 10rem;
+    padding: 0.625rem;
+    border-radius: 0.1875rem;
+    background: #4a0241;
+    display: inline-block; }
+  .countdown__number:nth-child(1) {
+    background: transparent;
+    border: 0.1875rem solid #fff; }
+  .countdown__time {
+    padding: 0.3125rem;
+    border-radius: 0.1875rem;
+    background: #4a0241;
+    display: inline-block;
+    font-size: 3.875rem;
+    font-weight: 500; }
+  .countdown__time:nth-child(1) {
+    background: transparent; }
+  .countdown__text {
+    display: block;
+    padding-top: 0.3125rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 100; }
+
+/* Sponsorship */
+.sponsorship {
+  padding-top: 5.625rem;
+  padding-bottom: 7rem; }
+  .sponsorship__title {
+    font-size: 3.875rem;
+    margin-bottom: 4.375rem; }
+  .sponsorship__img {
+    display: block;
+    margin: 0 auto;
+    opacity: .3; }
+
+/* Jury */
+.jury {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #ffe9eb; }
+  .jury__title {
+    font-size: 3.875rem;
+    margin-bottom: 4.0625rem; }
+  .jury__pic {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1.5625rem; }
+  .jury__member {
+    text-align: center;
+    margin-bottom: 1.375rem; }
+  .jury__about {
+    font-size: 1rem;
+    text-align: center; }
+
+/* Contact Us */
+.contact-us {
+  padding-top: 5.9375rem;
+  padding-bottom: 6.5rem; }
+  .contact-us__title {
+    font-size: 3.9375rem;
+    margin-bottom: 0 auto;
+    margin-bottom: 4.5rem; }
+  .contact-us__text {
+    font-size: 1.375rem;
+    line-height: 2.4375rem;
+    text-align: center;
+    margin-bottom: 4.6875rem; }
+
+.form {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .form__field {
+    border: 0.3125rem #555555;
+    border-bottom-style: solid;
+    border-radius: 0;
+    padding-left: 0;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+  .form__msg {
+    margin-top: 7.5rem;
+    margin-bottom: 2.6875rem; }
+  .form__btn_mud {
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 9.375rem;
+    height: 3.125rem;
+    border-radius: 0; }
+
+/* Footer */
+.newsletter {
+  background-color: #eeeeee;
+  padding-top: 4.375rem;
+  padding-bottom: 3.625rem; }
+  .newsletter__title {
+    font-size: 2.25rem;
+    line-height: auto;
+    margin-bottom: 2.75rem; }
+  .newsletter__text {
+    font-size: 1rem;
+    line-height: auto;
+    text-align: center;
+    margin-bottom: 1.625rem; }
+
+.form {
+  text-align: center;
+  margin-bottom: 2.9375rem; }
+  .form__input {
+    background: #fff;
+    font-size: 1.125rem;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 0.625rem;
+    width: 25rem;
+    height: 3.75rem;
+    padding: 0.9375rem 0;
+    padding-left: 1.25rem;
+    margin-right: 0.4375rem;
+    border: 0; }
+  .form__btn {
+    background-color: #c60ebe;
+    width: 8.625rem;
+    height: 3.75rem;
+    border-width: 0;
+    border-radius: 0.625rem; }
+
+.sotials__item {
+  width: 4.0625rem;
+  height: 4rem; }
+
+/* Media Queries */
+@media (max-width: 991.98px) {
+  /* Hero*/
+  .hero__title {
+    padding-top: 12rem; } }
+
+/* Jury */
+.jury__pic {
+  width: 100%; }
+
+@media (max-width: 767.98px) {
+  .logo {
+    margin-bottom: 0.625rem; }
+  .design__point {
+    margin-bottom: 0.9375rem; }
+  .person__pic {
+    width: 70%; }
+  .countdown__number {
+    width: 23%; }
+  .sponsorship {
+    padding-bottom: 3.4375rem; }
+    .sponsorship__title {
+      margin-bottom: 3.75rem; }
+    .sponsorship__img {
+      width: 70%;
+      margin-bottom: 2rem; }
+  .jury {
+    padding-top: 4.375rem;
+    padding-bottom: 3rem; }
+    .jury__title {
+      margin-bottom: 2.8125rem; }
+    .jury__member {
+      margin-bottom: 0.5rem; }
+    .jury__about {
+      margin-bottom: 4rem; }
+    .jury__pic {
+      width: 60%;
+      margin-bottom: 1.125rem; }
+  .form__input, .form__btn {
+    width: 80%; }
+  .form__btn_mud {
+    width: 100%; } }
+
+@media (max-width: 575.98px) {
+  .container {
+    padding: 0 2.5rem; }
+  .design {
+    padding-top: 5.5rem;
+    padding-bottom: 6.25rem;
+    padding-left: 20px; }
+    .design__main-title {
+      margin-bottom: 2.5rem; }
+    .design__text {
+      font-size: 1.7rem;
+      line-height: 2.5rem;
+      margin-bottom: 5rem; }
+    .design__title {
+      margin-bottom: 3rem; }
+    .design__point {
+      padding-left: 0; }
+      .design__point i {
+        margin-right: 35px; }
+    .design__info {
+      margin-top: 2rem;
+      margin-bottom: 3rem; }
+  .point__txt {
+    font-size: 1.3rem; }
+  .submissions__text {
+    line-height: inherit; }
+  .submissions__btn {
+    width: 100%; }
+  .jury__wrapper {
+    width: 100%;
+    padding: 0; }
+  .jury__pic {
+    margin: 0 auto; }
+  .countdown {
+    padding: 0 45px; }
+    .countdown__number {
+      width: 5.5rem;
+      height: 7rem; }
+    .countdown__time {
+      font-size: 2.5rem; } }
+
+@media (max-width: 519.98px) {
+  .container {
+    padding: 0 1.875rem; }
+  .hero__title {
+    font-size: 2.5rem; }
+  .hero__text {
+    font-size: 1.375rem; }
+  .design__main-title {
+    font-size: 2.5rem; }
+  .design__text {
+    font-size: 1.2rem;
+    line-height: 2rem; }
+  .design__title {
+    font-size: 2rem; }
+  .point i {
+    font-size: 2.2rem;
+    margin-right: 1.25rem; }
+  .point__num {
+    font-size: 2.125rem; }
+  .point__txt {
+    padding-left: 1.25rem;
+    font-size: 1.125rem; }
+  .participants {
+    padding-top: 100px; }
+    .participants__title {
+      font-size: 2.5rem; }
+  .countdown {
+    padding: 0 45px;
+    margin-bottom: 3.7rem; }
+    .countdown__title {
+      font-size: 2.8rem;
+      margin-bottom: 1.875rem; }
+    .countdown__number {
+      /* width: 5.5rem;
+			height: 7rem; */
+      width: 4rem;
+      height: 5.3rem; }
+    .countdown__time {
+      /* font-size: 2.5rem; */
+      font-size: 1.5rem; }
+    .countdown__text {
+      font-size: 0.7rem; }
+  .sponsorship__title {
+    font-size: 2.5rem; }
+  .jury__title {
+    font-size: 3rem; }
+  .jury__pic {
+    width: 60%; }
+  .contact-us {
+    padding-top: 3.75rem;
+    padding-bottom: 5rem; }
+    .contact-us__title {
+      font-size: 2.5rem;
+      margin-bottom: 2.5rem; }
+    .contact-us__text {
+      font-size: 1.125rem;
+      line-height: 1.75rem;
+      margin-bottom: 3.125rem; }
+  .form__msg {
+    margin-top: 5rem;
+    margin-bottom: 0; }
+  .newsletter input, .newsletter button {
+    width: 100%; } }
