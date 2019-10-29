@@ -444,13 +444,15 @@ input, textarea {
     font-size: 2.5rem; }
   .hero__text {
     font-size: 1.375rem; }
-  .design__main-title {
-    font-size: 2.5rem; }
-  .design__text {
-    font-size: 1.2rem;
-    line-height: 2rem; }
-  .design__title {
-    font-size: 2rem; }
+  .design {
+    padding-left: 0; }
+    .design__main-title {
+      font-size: 2.5rem; }
+    .design__text {
+      font-size: 1.2rem;
+      line-height: 2rem; }
+    .design__title {
+      font-size: 2rem; }
   .point i {
     font-size: 2.2rem;
     margin-right: 1.25rem; }
@@ -500,3 +502,138 @@ input, textarea {
     margin-bottom: 0; }
   .newsletter input, .newsletter button {
     width: 100%; } }
+
+@media (max-width: 419.98px) {
+  .container {
+    padding: 0 0.625rem; }
+  .header {
+    padding: 0; }
+  .logo {
+    padding-top: 0.9375rem;
+    margin: 0; }
+  .hero {
+    padding-left: 0.625rem;
+    padding-right: 0.625rem; }
+    .hero__title {
+      padding-top: 8rem;
+      font-size: 2.3rem; }
+    .hero__text {
+      font-size: 1.2rem; }
+    .hero__btn {
+      width: 70%;
+      font-size: 0.7rem; }
+  .design {
+    padding: 1.875rem 0.625rem 3.125rem; }
+    .design__main-title {
+      font-size: 2.3rem;
+      margin-bottom: 1.25rem; }
+    .design__text {
+      font-size: 1rem;
+      line-height: 1.5rem;
+      margin-bottom: 2.5rem; }
+    .design__title {
+      font-size: 1.5rem;
+      margin-bottom: 1.875rem; }
+    .design__info {
+      font-size: 1rem;
+      line-height: 1.5rem;
+      margin-bottom: 2.5rem; }
+  .point {
+    margin: 0; }
+    .point__icon {
+      font-size: 1.5rem;
+      margin-right: 0.7rem; }
+    .point__num {
+      font-size: 1.6rem; }
+    .point__txt {
+      font-size: 1rem;
+      padding-left: 0.625rem; }
+  .submissions__title {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+    margin-bottom: 1.5625rem; }
+  .submissions__text {
+    text-align: center; }
+  .submissions__btn {
+    width: 90%;
+    height: 3rem;
+    margin: 0 auto;
+    font-size: 1rem; }
+  .participants {
+    padding-top: 3.125rem;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem; }
+    .participants__title {
+      font-size: 2.3rem;
+      margin-bottom: 1.5625rem; }
+    .participants__text {
+      font-size: 1.2rem;
+      line-height: 1.8rem; }
+  .person__pic {
+    margin-bottom: 16px; }
+  .person__name {
+    font-size: 1.5rem;
+    margin-bottom: 0.3125rem; }
+  .person__about {
+    font-size: 0.875rem;
+    margin-bottom: 3.75rem; }
+  .countdown {
+    padding: 0 0.625rem; }
+    .countdown__title {
+      font-size: 2rem; }
+    .countdown__number {
+      padding: 0 0.3125rem;
+      height: 4.5rem;
+      border: 0.0625rem solid #fff; }
+    .countdown__time {
+      font-size: 1.2rem; }
+    .countdown__text {
+      font-size: 0.625rem;
+      font-weight: 700;
+      padding: 0; }
+  .sponsorship {
+    padding: 3.75rem 0 3rem; }
+    .sponsorship__title {
+      font-size: 2.3rem;
+      margin-bottom: 1rem; }
+    .sponsorship__img {
+      margin-bottom: 0; }
+  .jury-list {
+    margin: 0; }
+  .jury {
+    padding: 2.5rem 0 0; }
+    .jury__title {
+      font-size: 2.3rem;
+      margin-bottom: 1.5625rem; }
+    .jury__wrapper {
+      width: 93%; }
+    .jury__pic {
+      width: 50%;
+      margin-bottom: 0.625rem; }
+    .jury__member {
+      font-size: 1.5rem;
+      margin-bottom: 0.0625rem; }
+    .jury__about {
+      font-size: 0.875rem;
+      margin-bottom: 2.5rem; }
+  .contact-us {
+    padding: 2.5rem 0.9375rem 3rem; }
+    .contact-us__title {
+      font-size: 2.3rem;
+      margin-bottom: 1.5625rem; }
+    .contact-us__text {
+      font-size: 1.2rem;
+      line-height: 1.8rem; }
+  .newsletter {
+    padding: 3.75rem 0.9375rem 2.8125rem; }
+    .newsletter__title {
+      margin-bottom: 2rem; }
+    .newsletter__text {
+      margin-bottom: 2.8125rem; }
+  .form {
+    margin-bottom: 1.25rem; }
+  .sotials__item {
+    width: 3.125rem; }
+  .sotials img {
+    width: 3.125rem; } }
